@@ -18,7 +18,7 @@ nav {
 table {
   background-color: #333;
   height: 65px;
-  width: 1265px;
+  width: 100%;
 }
 
 th {
@@ -47,20 +47,21 @@ th:hover {
 main {
   margin-top: 60px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 section{
   border:2px solid black ;
   display: inline-block;
-  width: 350px;
-  min-height: 400px;
+  /* width: 350px; */
+  width: 22%;
+  max-height: 800px;
   text-align: center;
   align-items: center;
   padding: 15px;
   margin: 15px;
-  height: 600px;
-  margin-top: 55px;
+  height: 530px;
+  margin-top: 30px;
   transition: 0.5s ease;
 }
 section:hover{
@@ -86,6 +87,7 @@ p:hover{
 .twitter:hover{
   background-color: rgba(36, 147, 232, 0.839);
   color: white;
+  border: 2px solid rgba(36, 147, 232, 0.839);
 }
 .twitter:hover button{
   background-color: white;
@@ -96,6 +98,7 @@ p:hover{
 .instagram:hover{
   background-color: rgb(255, 64, 137);
   color: white;
+  border: 2px solid rgb(255, 64, 137);
 }
 .instagram:hover button{
   background-color: white;
@@ -106,6 +109,7 @@ p:hover{
 .youtube:hover{
   background-color: rgb(243, 21, 21);
   color: white;
+  border: 2px solid rgb(243, 21, 21);
 }
 .youtube:hover button{
   background-color: white;
@@ -116,6 +120,7 @@ p:hover{
 .whatsapp:hover {
   background-color: rgb(21, 243, 113);
   color: white;
+  border: 2px solid rgb(21, 243, 113);
 }
 
 .whatsapp:hover button {
@@ -147,5 +152,3 @@ button:hover{
   cursor: pointer;
 }
 
-
-/* space */
