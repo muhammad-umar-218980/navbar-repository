@@ -72,9 +72,11 @@ section:hover i{
 }
 h1{
   font-weight: bold;
+  transition: letter-spacing 0.5s ease;
 }
 h1:hover{
   cursor: pointer;
+  letter-spacing: 5px;
 }
 
 p{
@@ -123,7 +125,7 @@ p:hover{
   border: 2px solid rgb(21, 243, 113);
 }
 
-.whatsapp:hover a {
+.whatsapp:hover a{
   background-color: white;
   color: rgb(21, 243, 113);
   border: 2px solid rgb(21, 243, 113);
@@ -144,7 +146,7 @@ a{
   width: 150px;
   background-color: black;
   color: white;
-  transition: 0.1s ease;
+  transition: 0.5s ease;
   font-size: 15px;
 
   /* changes */
@@ -154,5 +156,6 @@ a{
 a:hover{
   border-radius: 4px;
   cursor: pointer;
+  letter-spacing: 5px;
 }
 
